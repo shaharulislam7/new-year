@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    font-weight:'Open Sans', sans-serif;
+}
+.my-header{
+    text-align: right;
+    width: 1490px;
+    height: 808px;
+   
+}
+.header-title{
+    ont-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    width: 525px;
+    height: 228px;
+    text-align: right;
+}
+.header-description{
+    font-weight: 606;
+    font-size: 16px;
+    color: #444343;
+
+}
+.btn-primary{
+    width: 165px;
+    height: 65px;
+    background: #F15B22;
+    border-radius: 5px;
+}
+/* my failurers sections */
