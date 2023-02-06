@@ -3,23 +3,36 @@
     font-weight:'Open Sans', sans-serif;
 }
 .my-header{
-    text-align: right;
-    width: 1490px;
-    height: 808px;
+   /* display: flex; */
+   background-image: url('../images/banner/banner1.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   height: 808px;
    
 }
+.header-text{
+    width: 525px;
+    float: right;
+    padding-top: 226px;
+   margin-right: 260px;
+   margin:0 260px ;
+   text-align: right;
+}
+
 .header-title{
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 65px;
     color: #151414;
-    width: 525px;
-    height: 228px;
     text-align: right;
 }
 .header-description{
     font-weight: 606;
     font-size: 16px;
     color: #444343;
+    width: 442px;
+    text-align: right;
+    margin: 0 ;
+    padding: 20px 0px;
 
 }
 .btn-primary{
@@ -29,3 +42,98 @@
     border-radius: 5px;
 }
 /* my failurers sections */
+.failure-section{
+  display: flex;
+  justify-content: space-around;
+    
+}
+.failure-img img{
+    width: 569px;
+    height: 723.3px;
+}
+.failure-text{
+    width: 50%;
+    padding: 100px 100px;
+    color: #444343;
+}
+.failure-text h1{
+    font-weight: 700;
+    font-size: 40px;
+    padding: 0 200px;
+    color: #151414;
+}
+.failure-text p{
+   padding: 10px 150px;
+}
+.failure-text ul{
+    padding: 10px 150px;
+
+ }
+ .failure-text ul li{
+    list-style: none;
+
+    
+ }
+ .my-plans{
+    width: 1484px;
+    height: 345.96px;
+ }
+ .plans-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+ .plans-header{
+    text-align: center;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 30px 0;
+ }
+ .my-linner{
+   margin: 100px 0; 
+
+ }
+ .linner{
+    background-image: url('../images/watch.png');
+    background-position: center;
+   background-repeat: no-repeat;
+   width: 1140px;
+   height: 300px;
+}
+ .linner-section{
+    position: relative;
+    text-align: center;
+   
+  }
+.linner-text{
+    position: absolute;
+    top: 70px;
+    left: 237px;
+   
+}
+.linner-text h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 469px;
+}
+.btn-linner{
+    width: 140px;
+    height: 54px; 
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.my-future{
+    display: flex;
+    justify-content: space-between;
+    padding: 129px 230px;
+    background-color: #151414;
+    color: #FFFFFF;
+}
+.p-2{
+    padding: 15px 0;
+}
+.m-2{
+    margin:13px 0 ;
+}
